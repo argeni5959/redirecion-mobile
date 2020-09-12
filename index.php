@@ -1,14 +1,18 @@
-<?php
-
-require_once 'Mobile_Detect.php';
-if($detect->isMobile() || $detect->isTablet()) {
-    echo "<link rel="stylesheet" href="mobile.css type=" text="" css'="">";
-} else {
-    echo "<link rel="stylesheet" href="style.css type=" text="" css'="">";
-}
 
 
+ <?php
+ $iphone = strpos($_SERVER[‘HTTP_USER_AGENT’],”iPhone”);
+ $android = strpos($_SERVER[‘HTTP_USER_AGENT’],”Android”);
+ $palmpre = strpos($_SERVER[‘HTTP_USER_AGENT’],”webOS”);
+ $berry = strpos($_SERVER[‘HTTP_USER_AGENT’],”BlackBerry”);
+ $ipod = strpos($_SERVER[‘HTTP_USER_AGENT’],”iPod”);
+
+ if ($iphone || $android || $palmpre || $ipod || $berry == true) 
+ {
+     echo “](https://s3.amazonaws.com/woocms.woorank.com/2020/05/poor-mobile-optimization.png”;
+  }
+ ?>
 
 
 
-?>
+
