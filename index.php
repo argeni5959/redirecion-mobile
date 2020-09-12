@@ -1,4 +1,4 @@
-<? php
+<?php
 
 require_once 'Mobile_Detect.php';
 if($detect->isMobile() || $detect->isTablet()) {
