@@ -16,7 +16,7 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true)
      
   }else{
  header('Location: https://google.com/');
- 
+}
  ?>
 
 
