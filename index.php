@@ -11,7 +11,9 @@ $ipad = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
 
 if ($iphone || $android || $palmpre || $ipod || $berry == true) 
  {
-     echo "https://s3.amazonaws.com/woocms.woorank.com/2020/05/poor-mobile-optimization.png";
+ 
+  header('Location: http://m.samplesite.com/');
+     
   }
  ?>
 
