@@ -1,6 +1,6 @@
 <? php
 
-require_once 'Mobile-Detect-master/Mobile-Detect-master/Mobile_Detect.php';
+require_once 'Mobile_Detect.php';
 if($detect->isMobile() || $detect->isTablet()) {
     echo "<link rel="stylesheet" href="mobile.css type=" text="" css'="">";
 } else {
